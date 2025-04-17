@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#!" class="logo">
+                    <img src="./images/logo-header.png" alt="" class="logo__img">
+                </a>
+                <nav class="menu header__menu">
+                    <button class="menu__btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="menu__list header__menu-list">
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu__list-link">About us</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu__list-link">Catalogue</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu__list-link">Team</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu__list-link">Reviews</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu__list-link">Courses</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu__list-link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="tel:+4565789876" class="phone">+45 65 78 98 76</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="top">
+            <div class="container top__inner">
+                <div class="top__content">
+                    <h3 class="top__title">
+                        Create an atmosphere of comfort and harmony!
+                    </h3>
+                    <p class="top__text">
+                        Create a special atmosphere in your home with our environmentally friendly and high-quality products made from 100% natural soy wax.
+                    </p>
+                    <button class="top__buy btn-hover">
+                        Buy
+                    </button>
+                </div>
+                <picture class="top__img">
+                    <source srcset="./images/top-s.png" media="(max-width: 360px)">
+                    <source srcset="./images/top-m.png" media="(max-width: 480px)">
+                    <img class="top__img-l" src="./images/top-l.png" alt="">
+                </picture>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container about__inner">
+
+                <div class="about__content">
+                    <h2 class="about__title title">
+                        About us
+                    </h2>
+                    <p class="about__text">
+                        Bohdan is the creator of the brand who is always interested in making different things at home. He has regularly experimented with different materials and tools, trying his hand at many fields, including candle making.
+                    </p>
+                    <p class="about__text">
+                        Soy wax is made from soya beans grown in Denmark, and this type of wax is environmentally friendly and safe for health.
+                    </p>
+                </div>
+
+                <ul class="about__list section--decor">
+                    <li class="about__item">
+                        <img src="./images/about-1.jpg" alt="" class="about__item-img about__item-img--1">
+                        <p class="about__item-text">Enjoy the moment</p>
+                    </li>
+                    <li class="about__item">
+                        <img src="./images/about-2.png" alt="" class="about__item-img about__item-img--2">
+                        <p class="about__item-text">Create your favourite atmosphere</p>
+                    </li>
+                    <li class="about__item">
+                        <img src="./images/about-3.jpg" alt="" class="about__item-img about__item-img--3">
+                        <p class="about__item-text">Made with love</p>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section class="products section">
+            <div class="container section__inner">
+
+                <div class="products__descr section__descr">
+                    <h2 class="products__title title">
+                        Our products
+                    </h2>
+                    <p class="products__text section__text">
+                        We use only the best quality materials: soy wax, wax dyes, high-quality fragrance oils and cotton wicks. The shades of the candles are very harmoniously combined with the aroma, creating an unforgettable atmosphere in your home.
+                    </p>
+                </div>
+
+                <div class="products__content section__content-descr section--decor">
+                    <div class="products__item">
+                        <img src="./images/product-1.jpg" alt="" class="products__item-img">
+                        <p class="products__item-price">10$</p>
+                        <h4 class="products__item-title">"Heart of Love"</h4>
+                        <p class="products__item-text">
+                            Scent: a delicate scent of rose and vanilla. What for: to create a romantic mood
+                        </p>
+                        <button class="button btn-hover">Buy</button>
+                    </div>
+
+                    <div class="products__item">
+                        <img src="./images/product-2.jpg" alt="" class="products__item-img">
+                        <p class="products__item-price">20$</p>
+                        <h4 class="products__item-title">"Whirlwind of Love"</h4>
+                        <p class="products__item-text">
+                            Scent: delicate lavender aroma. What for: to create a cosy atmosphere
+                        </p>
+                        <button class="button btn-hover">Buy</button>
+                    </div>
+
+                    <div class="products__item">
+                        <img src="./images/product-3.jpg" alt="" class="products__item-img">
+                        <p class="products__item-price">10$</p>
+                        <h4 class="products__item-title">"Rainbow"</h4>
+                        <p class="products__item-text">
+                            Scent: Fresh lime scent. Why: For energy and freshness in the room.
+                        </p>
+                        <button class="button btn-hover">Buy</button>
+                    </div>
+
+                    <div class="products__item">
+                        <img src="./images/product-4.jpg" alt="" class="products__item-img">
+                        <p class="products__item-price">10$</p>
+                        <h4 class="products__item-title">"Feminine charm"</h4>
+                        <p class="products__item-text">
+                            Scent: delicate aroma of lavender and freesia. Why: for cosiness and comfort.
+                        </p>
+                        <button class="button btn-hover">Buy</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="steps section">
+            <div class="container section__inner">
+
+                <div class="steps__descr section__descr">
+                    <h2 class="steps__title title">
+                        Stages of creating candles
+                    </h2>
+                    <p class="steps__text section__text">
+                        Creating a soy wax candle can consist of the following steps:
+                    </p>
+                </div>
+
+                <ol class="steps__list section__content-descr section--decor">
+
+                    <li class="steps__item steps__item--odd">
+                        <p class="steps__item-text">
+                            Preparation of materials: small fragments of soy wax, candle wick, fragrances, dyes and other additional materials.
+                        </p>
+                        <img src="images/s1.jpg" alt="" class="steps__item-img">
+                    </li>
+
+                    <li class="steps__item steps__item--odd">
+                        <p class="steps__item-text">
+                            Mould preparation: choosing a candle mould and preparing it for filling with wax.
+                        </p>
+                        <img src="images/s2.jpg" alt="" class="steps__item-img">
+                    </li>
+
+
+                    <li class="steps__item steps__item--even">
+                        <img src="images/s3.jpg" alt="" class="steps__item-img">
+                        <p class="steps__item-text">
+                            Wax preparation: melting soy wax in a melting device to the desired temperature. Add fragrances and colourants as required.
+                        </p>
+                    </li>
+
+                    <li class="steps__item steps__item--even">
+                        <img src="images/s4.jpg" alt="" class="steps__item-img">
+                        <p class="steps__item-text">
+                            Preparing the wick: inserting the wick into the mould and fixing it so that it is evenly tensioned.
+                        </p>
+                    </li>
+
+
+                    <li class="steps__item steps__item--odd">
+                        <p class="steps__item-text">
+                            Preparation of materials: small fragments of soy wax, candle wick, fragrances, dyes and other additional materials.
+                        </p>
+                        <img src="images/s5.jpg" alt="" class="steps__item-img">
+                    </li>
+
+                    <li class="steps__item steps__item--odd">
+                        <p class="steps__item-text">
+                            Filling the mould: Pour the wax into the mould until it is completely filled. Wait for it to harden.
+                        </p>
+                        <img src="images/s6.jpg" alt="" class="steps__item-img">
+                    </li>
+
+
+                    <li class="steps__item steps__item--even">
+                        <img src="images/s7.jpg" alt="" class="steps__item-img">
+                        <p class="steps__item-text">
+                            Wax preparation: melting soy wax in a melting device to the desired temperature. Add fragrances and colourants as required.
+                        </p>
+                    </li>
+
+                    <li class="steps__item steps__item--even">
+                        <img src="images/s8.jpg" alt="" class="steps__item-img">
+                        <p class="steps__item-text">
+                            Preparing the wick: inserting the wick into the mould and fixing it so that it is evenly tensioned.
+                        </p>
+                    </li>
+
+
+                    <li class="steps__item steps__item--odd">
+                        <p class="steps__item-text">
+                            Preparation of materials: small fragments of soy wax, candle wick, fragrances, dyes and other additional materials.
+                        </p>
+                        <img src="images/s9.jpg" alt="" class="steps__item-img">
+                    </li>
+
+                    <li class="steps__item steps__item--odd">
+                        <p class="steps__item-text">
+                            Filling the mould: Pour the wax into the mould until it is completely filled. Wait for it to harden.
+                        </p>
+                        <img src="images/s10.jpg" alt="" class="steps__item-img">
+                    </li>
+
+                </ol>
+
+            </div>
+        </section>
+
+        <section class="courses section">
+            <div class="container section__inner">
+
+                <div class="section__descr">
+                    <h2 class="title">
+                        Our courses
+                    </h2>
+                    <p class="section__text">
+                        Our courses allow you to take the first step in a new career or deepen your knowledge in your field, develop as a professional, and improve your quality of life.
+                    </p>
+                </div>
+
+                <div class="products__content courses__content section__content-descr section--decor">
+
+                    <div class="products__item courses__item">
+                        <div class="courses__item-img">
+                            <img src="./images/course-1.jpg" alt="" class="products__item-img">
+                            <p class="courses__title">
+                                The basics of candle making
+                            </p>
+                            <p class="courses__time">
+                                Training <span>- 20 h</span>
+                            </p>
+                            <p class="courses__price">
+                                Price <span>- 40$</span>
+                            </p>
+                        </div>
+                        <h4 class="products__item-title">The basics of candle making</h4>
+                        <p class="products__item-text">
+                            We will teach the basics of making candles from different materials.
+                        </p>
+                        <button class="button btn-hover">Buy a course</button>
+                    </div>
+
+                    <div class="products__item courses__item">
+                        <div class="courses__item-img">
+                            <img src="./images/course-2.jpg" alt="" class="products__item-img">
+                            <p class="courses__title">
+                                The art of aromatherapy
+                            </p>
+                            <p class="courses__time">
+                                Training <span>- 20 h</span>
+                            </p>
+                            <p class="courses__price">
+                                Price <span>- 40$</span>
+                            </p>
+                        </div>
+                        <h4 class="products__item-title">The art of aromatherapy</h4>
+                        <p class="products__item-text">
+                            We will be learning the art of aromatherapy and making candles with different scents.
+                        </p>
+                        <button class="button btn-hover">Buy a course</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="team section">
+            <div class="container section__inner team__inner">
+
+                <div class="section__descr">
+                    <h2 class="title">
+                        Our teachers
+                    </h2>
+                    <p class="section__text">
+                        These people work together to create courses for you to help you start your own business or hobby.
+                    </p>
+                </div>
+
+                <div class="team__content section__content-descr">
+
+                    <div class="team__item">
+                        <img src="images/team-1.jpg" alt="" class="team__img">
+                        <div class="team__item-box">
+                            <p class="team__item-name">
+                                Teacher Bohdan
+                            </p>
+                            <p class="team__item-descr">
+                                Has 4 years of teaching and work experience
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="team__item">
+                        <img src="images/team-2.jpg" alt="" class="team__img">
+                        <div class="team__item-box">
+                            <p class="team__item-name">
+                                Teacher Anna
+                            </p>
+                            <p class="team__item-descr">
+                                Has 6 years of teaching and work experience
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="team__item">
+                        <img src="images/team-3.jpg" alt="" class="team__img">
+                        <div class="team__item-box">
+                            <p class="team__item-name">
+                                Teacher Galina
+                            </p>
+                            <p class="team__item-descr">
+                                Trains in the field of design and decoration
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="team__item">
+                        <img src="images/team-4.jpg" alt="" class="team__img">
+                        <div class="team__item-box">
+                            <p class="team__item-name">
+                                Marketer Olga
+                            </p>
+                            <p class="team__item-descr">
+                                Will help you with advertising
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="feedback section">
+            <div class="container feedback__inner section__inner">
+
+                <div class="feedback__descr section__descr">
+                    <h2 class="title">
+                        Customer feedback
+                    </h2>
+                    <p class="section__text">
+                        Our customers are of different ages, status, occupations and interests, but they have one thing in common - they strive for harmony and find joy in the little pleasures of life that create an atmosphere of comfort and harmony in their homes.
+                    </p>
+                </div>
+
+                <div class="feedback__content section--decor">
+                    <div class="feedback__slider">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="feedback__item">
+
+                                    <div class="feedback__item-video">
+                                        <img class="feedback__item-img" src="./images/slide.jpg" alt="">
+                                        <button class="feedback__item-videobtn">
+                                            <img src="./images/btn.svg" alt="">
+                                        </button>
+                                    </div>
+
+                                    <div class="feedback__item-content">
+                                        <a href="#!" class="feedback__item-sociallink">
+                                            <img src="./images/instagram.svg" alt="">
+                                        </a>
+                                        <p class="feedback__item-name">
+                                            Ivan Pylypenko
+                                        </p>
+                                        <p class="feedback__item-text">
+                                            I ordered the heart-shaped candle for Valentine's Day for my girlfriend and it was just incredible! The smell was very nice and romantic and the heart shape was perfect for this holiday. My girlfriend was very happy with the gift and I will definitely order more candles from this site!"
+                                        </p>
+                                        <button class="button feedback__item-btn btn-hover">Buy this product</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="feedback__item">
+
+                                    <div class="feedback__item-video">
+                                        <img class="feedback__item-img" src="./images/slide.jpg" alt="">
+                                        <button class="feedback__item-videobtn">
+                                            <img src="./images/btn.svg" alt="">
+                                        </button>
+                                    </div>
+
+                                    <div class="feedback__item-content">
+                                        <a href="#!" class="feedback__item-sociallink">
+                                            <img src="./images/instagram.svg" alt="">
+                                        </a>
+                                        <p class="feedback__item-name">
+                                            Ivan Pylypenko
+                                        </p>
+                                        <p class="feedback__item-text">
+                                            I ordered the heart-shaped candle for Valentine's Day for my girlfriend and it was just incredible! The smell was very nice and romantic and the heart shape was perfect for this holiday. My girlfriend was very happy with the gift and I will definitely order more candles from this site!"
+                                        </p>
+                                        <button class="button feedback__item-btn btn-hover">Buy this product</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="feedback__item">
+
+                                    <div class="feedback__item-video">
+                                        <img class="feedback__item-img" src="./images/slide.jpg" alt="">
+                                        <button class="feedback__item-videobtn">
+                                            <img src="./images/btn.svg" alt="">
+                                        </button>
+                                    </div>
+
+                                    <div class="feedback__item-content">
+                                        <a href="#!" class="feedback__item-sociallink">
+                                            <img src="./images/instagram.svg" alt="">
+                                        </a>
+                                        <p class="feedback__item-name">
+                                            Ivan Pylypenko
+                                        </p>
+                                        <p class="feedback__item-text">
+                                            I ordered the heart-shaped candle for Valentine's Day for my girlfriend and it was just incredible! The smell was very nice and romantic and the heart shape was perfect for this holiday. My girlfriend was very happy with the gift and I will definitely order more candles from this site!"
+                                        </p>
+                                        <button class="button feedback__item-btn btn-hover">Buy this product</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="feedback__item">
+
+                                    <div class="feedback__item-video">
+                                        <img class="feedback__item-img" src="./images/slide.jpg" alt="">
+                                        <button class="feedback__item-videobtn">
+                                            <img src="./images/btn.svg" alt="">
+                                        </button>
+                                    </div>
+
+                                    <div class="feedback__item-content">
+                                        <a href="#!" class="feedback__item-sociallink">
+                                            <img src="./images/instagram.svg" alt="">
+                                        </a>
+                                        <p class="feedback__item-name">
+                                            Ivan Pylypenko
+                                        </p>
+                                        <p class="feedback__item-text">
+                                            I ordered the heart-shaped candle for Valentine's Day for my girlfriend and it was just incredible! The smell was very nice and romantic and the heart shape was perfect for this holiday. My girlfriend was very happy with the gift and I will definitely order more candles from this site!"
+                                        </p>
+                                        <button class="button feedback__item-btn btn-hover">Buy this product</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="certificates section">
+            <div class="container section__inner">
+
+                <div class="certificates__descr section__descr">
+                    <h2 class="certificates__title title">
+                        Certificates of quality
+                    </h2>
+                    <p class="section__text">
+                        The certificates provide additional trust and confidence for our customers.
+                    </p>
+                </div>
+
+                <div class="certificates__content section--decor">
+                    <div class="certificates__slider">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <img src="./images/certificate-1.jpg" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="./images/certificate-2.jpg" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="./images/certificate-1.jpg" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="./images/certificate-2.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="questions section">
+            <div class="container section__inner">
+
+                <div class="section__descr questions__descr">
+                    <h2 class="title">
+                        Frequently asked questions
+                    </h2>
+                </div>
+
+                <div class="questions__content">
+                    <div class="accordeon">
+
+                        <div class="accordeon__item">
+                            <button class="accordeon__title">
+                                What scents are available for candles?
+                            </button>
+                            <div class="accordeon__text">
+                                <ol>
+                                    <li>
+                                        Vanilla is a warm, sweet and cosy scent that reminds you of home.
+                                    </li>
+                                    <li>
+                                        Lavender is a pleasant, calming and relaxing scent that helps relieve stress and tension.
+                                    </li>
+                                    <li>
+                                        Pink grapefruit is a fresh, fruity and energetic scent that helps to lift the mood and invigorate.
+                                    </li>
+                                    <li>
+                                        Cedar is a woody, earthy and masculine scent that gives a sense of stability and reliability.
+                                    </li>
+                                    <li>
+                                        Apple and Cinnamon is a warm and cosy scent that reminds us of winter holidays and homeliness.
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="accordeon__item">
+                            <button class="accordeon__title">
+                                How long do candles burn for?
+                            </button>
+                            <div class="accordeon__text">
+                                <div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita iste magni voluptas reprehenderit nesciunt quod excepturi voluptates, placeat molestias nihil cumque labore id. Distinctio, sed vel commodi officiis earum dignissimos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordeon__item">
+                            <button class="accordeon__title">
+                                Can I order an individual candle design?
+                            </button>
+                            <div class="accordeon__text">
+                                <div>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere hic repellat deserunt, quae enim corporis quis perferendis alias quo a quasi impedit, laudantium, obcaecati ratione ex ab dolorum quibusdam suscipit eum sed mollitia accusantium possimus. At, repellendus reprehenderit commodi omnis totam aut cupiditate ex iure quod, dignissimos consequatur aliquam! Recusandae placeat nemo, quisquam aliquid voluptatum doloribus? Repellat, sint? Earum, minima!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordeon__item">
+                            <button class="accordeon__title">
+                                What are the delivery options?
+                            </button>
+                            <div class="accordeon__text">
+                                <div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi natus consectetur consequuntur voluptatem dolore perspiciatis! Itaque, voluptatum dolor? Sunt adipisci consectetur quod, est deleniti quibusdam totam a quos quas molestiae.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordeon__item">
+                            <button class="accordeon__title">
+                                How do I pay for my order?
+                            </button>
+                            <div class="accordeon__text">
+                                <div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi natus consectetur consequuntur voluptatem dolore perspiciatis! Itaque, voluptatum dolor? Sunt adipisci consectetur quod, est deleniti quibusdam totam a quos quas molestiae.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordeon__item">
+                            <button class="accordeon__title">
+                                How long does the course last?
+                            </button>
+                            <div class="accordeon__text">
+                                <div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi natus consectetur consequuntur voluptatem dolore perspiciatis! Itaque, voluptatum dolor? Sunt adipisci consectetur quod, est deleniti quibusdam totam a quos quas molestiae.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordeon__item">
+                            <button class="accordeon__title">
+                                What is the price of the course?
+                            </button>
+                            <div class="accordeon__text">
+                                <div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi natus consectetur consequuntur voluptatem dolore perspiciatis! Itaque, voluptatum dolor? Sunt adipisci consectetur quod, est deleniti quibusdam totam a quos quas molestiae.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordeon__item">
+                            <button class="accordeon__title">
+                                Is there a certificate for the course?
+                            </button>
+                            <div class="accordeon__text">
+                                <div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti cupiditate, expedita debitis voluptatum aliquid ea numquam adipisci incidunt nesciunt ullam, id itaque impedit sapiente soluta, aut eius modi. Quo architecto, a ex nisi consequuntur perspiciatis corporis explicabo dolores inventore hic porro dolore velit ea laboriosam eaque vitae non excepturi expedita molestiae, earum asperiores? Minima id maxime hic, nihil voluptatem numquam voluptate perspiciatis doloribus eius consectetur a, odit reprehenderit libero doloremque voluptatibus quidem perferendis labore natus quae. In officia fugiat optio earum, exercitationem excepturi cupiditate dolorem temporibus labore dolores debitis, nemo mollitia architecto. Natus ex necessitatibus, vitae aliquam repellat incidunt voluptatibus rerum odit magni possimus accusantium voluptates amet ut maxime omnis nam id? Nam ipsa illum porro error enim laboriosam voluptas! Cumque dignissimos amet omnis dolore magni! Amet esse deserunt libero. Culpa qui, voluptatibus eligendi labore aut soluta aliquam nam laudantium adipisci! Vitae, dicta nesciunt? Enim id dolores magni voluptatibus, quos quae. Voluptatum non dolorum tempora nulla nisi. Ratione eos molestias deleniti dolore consequuntur asperiores possimus illum, cum culpa repudiandae eligendi molestiae odio illo neque tenetur aut aspernatur assumenda veniam. Temporibus suscipit repudiandae tempore iste veritatis maiores repellat dolorum quas sapiente totam quos iure officiis fuga, praesentium, minima enim nesciunt.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="promo">
+            <div class="container promo__inner">
+                <p class="promo__text">
+                    Buy more, save more
+                </p>
+                <a class="promo__link btn-hover" href="#!">To the catalogue</a>
+            </div>
+        </section>
+
+        <section class="contacts">
+            <div class="container contacts__inner">
+
+                <form action="" class="form">
+                    <p class="form__title">
+                        Sign up for our promotions
+                    </p>
+                    <input type="text" class="form__input" placeholder="Name">
+                    <input type="email" class="form__input" placeholder="E-mail">
+                    <button class="form__btn btn-hover" type="submit">
+                        Subscribe
+                    </button>
+                </form>
+
+                <img class="contacts__inner-img" src="./images/contacts.jpg" alt="">
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a href="#!" class="logo">
+                    <img src="./images/logo-footer.png" alt="" class="logo__img">
+                </a>
+                <nav class="menu footer__menu">
+                    <ul class="menu__list footer__menu-list">
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu__list-link">About us</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu__list-link">Catalogue</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu__list-link">Team</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu__list-link">Reviews</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu__list-link">Courses</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu__list-link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__contacts">
+                    <a href="tel:+4565789876" class="footer__phone">+45 65 78 98 76</a>
+                    <a href="mailto:candelsCandels@gmail.com" class="email">candelsCandels@gmail.com</a>
+                    <ul class="footer__social">
+                        <li class="footer__social-item">
+                            <a href="#!" class="footer__social-link">
+                                <img src="./images/facebook.svg" alt="" class="footer__social-img">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#!" class="footer__social-link">
+                                <img src="./images/instagram.svg" alt="" class="footer__social-img">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#!" class="footer__social-link">
+                                <img src="./images/linkedin.svg" alt="" class="footer__social-img">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#!" class="footer__social-link">
+                                <img src="./images/youtube.svg" alt="" class="footer__social-img">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
